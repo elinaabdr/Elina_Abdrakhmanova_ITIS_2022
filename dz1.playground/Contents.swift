@@ -86,7 +86,7 @@ enum MonsterType {
 let greeting = "***Дорогой игрок, рад тебя приветствовать в игре Herkfjfeovk***\n В игре существует 2 расы: elf - после удара может восстановливать силы \n sniper - способен отразить урон монстра"
 print(greeting)
 
-var pl1 = Player(HP: Int.random(in: 50...70), damage: Int.random(in: 5...15), race: .Sniper)
+var pl1 = Player(HP: Int.random(in: 50...70), damage: Int.random(in: 5...15), race: .elf)
 
 var monster = Monster(monsterType: .FleshGolem)
 
